@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyden General Enterprises - Rupa Mall</title>
+    <meta
+      name="description"
+      content="Cyden General Enterprises - Rupa Mall offers a wide selection of favourite drinks at unbeatable prices in Nairobi, Kenya."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cookie-banner" id="cookieBanner">
+      <div class="cookie-inner">
+        <p>
+          This site uses cookies and by entering you acknowledge that you have read our
+          <a href="#">Privacy and Cookie Notice</a> and
+          <a href="#">Conditions of Use</a>.
+        </p>
+        <div class="cookie-actions">
+          <button class="btn btn-secondary" type="button">Manage Cookies</button>
+          <button class="btn btn-primary" type="button" id="acceptCookies">Accept All Cookies</button>
+        </div>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand-block">
+          <div class="brand-mark">C</div>
+          <div class="brand-copy">
+            <span class="brand-name">Cyden General Enterprises - Rupa Mall</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button class="icon-button" type="button" aria-label="Share outlet">Share</button>
+          <a class="call-badge" href="tel:+254110603242">Call to Order: 0110603242</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Open • Closes at 8:00 PM</p>
+            <h1>Pick up the drinks you love at a great price.</h1>
+            <p class="lead">
+              A wide selection of your favourite drinks at unbeatable prices. Try us today.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#products">Shop now</a>
+              <a class="btn btn-secondary" href="tel:+254110603242">Call outlet</a>
+            </div>
+
+            <ul class="hero-meta">
+              <li>Free delivery on selected orders</li>
+              <li>Trusted local convenience</li>
+              <li>Fast pick-up and direct ordering</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured drinks illustration">
+            <div class="floating-card card-one">
+              <span class="mini-label">Top pick</span>
+              <strong>Tusker</strong>
+              <small>Refreshing lager</small>
+            </div>
+            <div class="bottle-scene">
+              <div class="bottle bottle-large">
+                <span class="label">EABL</span>
+              </div>
+              <div class="bottle bottle-small">
+                <span class="label">Liqueur</span>
+              </div>
+            </div>
+            <div class="floating-card card-two">
+              <span class="mini-label">Deal</span>
+              <strong>Save 20%</strong>
+              <small>On mixed packs</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-strip">
+        <div class="container promo-inner">
+          <div>
+            <span class="promo-kicker">Free Delivery</span>
+            <strong>Discounts on select items</strong>
+          </div>
+          <a href="#products" class="promo-link">Shop now</a>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-tag">Popular picks</p>
+            <h2>Browse by category</h2>
+          </div>
+
+          <div class="category-filters" aria-label="Product category filters">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="beer" type="button">Beer</button>
+            <button class="filter-btn" data-filter="spirits" type="button">Spirits</button>
+            <button class="filter-btn" data-filter="wine" type="button">Wine</button>
+            <button class="filter-btn" data-filter="cider" type="button">Cider</button>
+          </div>
+
+          <div class="product-grid" id="products">
+            <article class="product-card" data-category="beer">
+              <div class="product-media beer-one"></div>
+              <div class="product-info">
+                <span class="tag">Beer</span>
+                <h3>Tusker Lager</h3>
+                <p>Classic Kenyan lager with a crisp finish.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 280</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="beer">
+              <div class="product-media beer-two"></div>
+              <div class="product-info">
+                <span class="tag">Beer</span>
+                <h3>White Cap</h3>
+                <p>Bright and smooth, perfect for everyday unwind.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 240</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="spirits">
+              <div class="product-media spirit-one"></div>
+              <div class="product-info">
+                <span class="tag">Spirits</span>
+                <h3>Jameson</h3>
+                <p>Warm, mellow whiskey with a smooth finish.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 1,950</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="spirits">
+              <div class="product-media spirit-two"></div>
+              <div class="product-info">
+                <span class="tag">Spirits</span>
+                <h3>Gilbey's Gin</h3>
+                <p>Clean botanical notes for cocktails and mixed drinks.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 1,650</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="wine">
+              <div class="product-media wine-one"></div>
+              <div class="product-info">
+                <span class="tag">Wine</span>
+                <h3>Merlot Reserve</h3>
+                <p>Rich fruit and velvet tannins for relaxed evenings.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 1,480</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="cider">
+              <div class="product-media cider-one"></div>
+              <div class="product-info">
+                <span class="tag">Cider</span>
+                <h3>Hunter's Dry</h3>
+                <p>Bright, crisp cider with a lightly sweet finish.</p>
+                <div class="product-meta">
+                  <span class="price">KSh 310</span>
+                  <button type="button">Add</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container benefits-grid">
+          <div class="benefit-card">
+            <span class="benefit-icon">✓</span>
+            <h3>Fast Delivery</h3>
+            <p>Quick service in and around the neighbourhood.</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">★</span>
+            <h3>Curated Collection</h3>
+            <p>Top-selling brands and crowd favourites.</p>
+          </div>
+          <div class="benefit-card">
+            <span class="benefit-icon">⚡</span>
+            <h3>Value Deals</h3>
+            <p>Better prices on premium drinks and bundles.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="outlet-info">
+        <div class="container outlet-grid">
+          <div>
+            <p class="section-tag">About the outlet</p>
+            <h2>Your neighbourhood drinks stop.</h2>
+            <p>
+              Cyden General Enterprises - Rupa Mall is all about convenience, trusted service,
+              and a friendly local experience with a wide selection of favourites for every mood.
+            </p>
+            <div class="info-list">
+              <div><strong>Location:</strong> Rupa Mall, Nairobi</div>
+              <div><strong>Opening hours:</strong> 8:00 AM - 8:00 PM</div>
+              <div><strong>Contact:</strong> 0110603242</div>
+            </div>
+          </div>
+
+          <div class="cta-panel">
+            <h3>Need something quick?</h3>
+            <a class="btn btn-primary" href="sms:+254110603242">Send message</a>
+            <a class="btn btn-secondary" href="tel:+254110603242">Call outlet</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="brand-mark">C</div>
+          <span>Cyden General Enterprises</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="tel:+254110603242">Call 0110603242</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Powered by Agiza.io</p>
+        <div class="legal-links">
+          <a href="#">Privacy & Cookie Notice</a>
+          <a href="#">Conditions of Use</a>
+          <a href="#">Accessibility Statement</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
