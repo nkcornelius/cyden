@@ -50,8 +50,12 @@ export default function Home() {
         <section className="hero">
           <div className="container hero-grid">
             <div className="hero-copy">
+              <div className="hero-location">
+                <span className="location-dot" aria-hidden="true"></span>
+                <span>Eldoret City, Kenya</span>
+              </div>
               <p className="eyebrow">Open • Closes at 8:00 PM</p>
-              <h1>Pick up the drinks you love at a great price.</h1>
+              <h1>Your next great pour starts here.</h1>
               <p className="lead">A wide selection of your favourite drinks at unbeatable prices. Try us today.</p>
 
               <div className="cta-row">
@@ -102,8 +106,11 @@ export default function Home() {
         <section className="catalog">
           <div className="container">
             <div className="section-head">
-              <p className="section-tag">Popular picks</p>
-              <h2>Browse by category</h2>
+              <div>
+                <p className="section-tag">Popular picks</p>
+                <h2>Browse by category</h2>
+              </div>
+              <p className="section-note">Handpicked favourites, ready when you are.</p>
             </div>
 
             <div className="category-filters" aria-label="Product category filters">

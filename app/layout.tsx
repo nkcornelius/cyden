@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cyden General Enterprises - Rupa Mall',
-  description: 'Cyden General Enterprises outlet page inspired by thebar.com',
+  title: 'Cyden General Enterprises - Eldoret City',
+  description: 'Shop drinks and enjoy convenient local ordering from Cyden General Enterprises in Eldoret City.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
